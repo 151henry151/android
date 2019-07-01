@@ -9,9 +9,13 @@
       alt="Get it on F-Droid"
       height="80">](https://f-droid.org/packages/com.nextcloud.client/)
 
-**The Android client for [Nextcloud](https://nextcloud.com). Easily work with your data on your Nextcloud.**
+**The Android client for [romp.network](https://romp.network). Easily share your music and other files and backup things that you care about.**
 
 ![App screenshots](/doc/Nextcloud_Android_Screenshots.png "App screenshots")
+
+
+## Fork information:
+This project was forked from Nextcloud's main android client github repository. So, in the documentation and elsewhere, you might see a lot of stuff that says "nextcloud" instead of "romp.network" -- For example, below, in the "How to contribute" section.
 
 ## How to contribute
 If you want to [contribute](https://nextcloud.com/contribute/) to Nextcloud, you are very welcome: 
