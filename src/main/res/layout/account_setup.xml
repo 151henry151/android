@@ -85,23 +85,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.owncloud.android.ui.components.CustomEditText
-                    android:id="@+id/hostUrlInput"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:contentDescription="@string/auth_host_address"
-                    android:drawablePadding="@dimen/alternate_half_padding"
-                    android:inputType="textUri"
-                    android:paddingRight="@dimen/alternate_padding_right"
-                    android:paddingEnd="@dimen/alternate_padding_right"
-                    android:paddingStart="@dimen/zero"
-                    android:paddingLeft="@dimen/zero"
-                    android:textColor="@color/login_text_color"
-                    android:textColorHint="@color/login_text_color">
+                    <com.owncloud.android.ui.components.CustomEditText
+                        android:id="@+id/hostUrlInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:contentDescription="@string/auth_host_address"
+                        android:drawablePadding="@dimen/alternate_half_padding"
+                        android:inputType="textUri"
+                        android:paddingStart="@dimen/zero"
+                        android:paddingLeft="@dimen/zero"
+                        android:paddingEnd="@dimen/alternate_padding_right"
+                        android:paddingRight="@dimen/alternate_padding_right"
+                        android:text="@string/default_server_url_for_romp_network"
+                        android:textColor="@color/login_text_color"
+                        android:textColorHint="@color/login_text_color">
 
-                    <requestFocus/>
-                </com.owncloud.android.ui.components.CustomEditText>
+                        <requestFocus />
+                    </com.owncloud.android.ui.components.CustomEditText>
 
                 </com.google.android.material.textfield.TextInputLayout>
 

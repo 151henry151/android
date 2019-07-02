@@ -18,6 +18,8 @@
     <string name="menu_item_sort_by_size_biggest_first">Biggest first</string>
     <string name="menu_item_sort_by_size_smallest_first">Smallest first</string>
 
+    <string name="default_server_url_for_romp_network">https://romp.network/nextcloud</string>
+
     <string name="drawer_item_all_files">All files</string>
     <string name="drawer_item_home">Home</string>
     <string name="drawer_item_favorites">Favorites</string>
@@ -65,7 +67,7 @@
     <string name="recommend_urls">%1$s or %2$s</string>
 
     <string name="auth_check_server">Check server</string>
-    <string name="auth_host_url">Server address https://…</string>
+    <string name="auth_host_url">Server address https://...</string>
     <string name="auth_username">Username</string>
     <string name="auth_password">Password</string>
     <string name="sync_string_files">Files</string>
